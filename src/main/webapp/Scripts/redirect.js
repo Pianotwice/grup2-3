@@ -2,6 +2,8 @@
  *  Pequeña página para redireccionar a la página plataforma.jsp
  */
 
- setTimeout(function() {
-	window.location.href = "plataforma.jsp";
-}, 5000);
+ function redirect() {
+	 window.location.href = "Index.html";
+}
+
+setTimeout(redirect, 5000);
