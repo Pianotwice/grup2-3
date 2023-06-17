@@ -256,7 +256,7 @@ const waitForImages = () => {
 	});
 };
 
-waitForImages();
+//waitForImages();
 
 // JavaScript para iniciar la animación de carga
 window.addEventListener('load', function() {

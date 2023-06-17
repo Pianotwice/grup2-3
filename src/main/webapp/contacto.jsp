@@ -28,36 +28,37 @@
       			<button type="submit" class="btn btn-primary">Enviar</button>
    			</form>
   		</div>
-  			<footer class="footer">
+  		<!-- FOOTER -->
+		<footer class="footer">
 			<div class="container">
 				<div class="footer-row">
 					<div class="footer-links">
-						<h4>Capa-8 DEV||TRAINERS</h4>
+						<h4>Kame House Trainers</h4>
 						<ul>
 							<li><a href="#">Nosotros</a></li>
-							<li><a href="#">Capacitaciones</a></li>
+							<li><a href="#">Entrenamiento</a></li>
 							<li><a href="#">Política de privacidad</a></li>
-							<li><a href="#">Únete</a></li>
+							<li><a href="login.jsp">Log In</a></li>
 						</ul>
 					</div>
 					<div class="footer-links">
 						<h4>Ayuda</h4>
 						<ul>
-							<li><a href="#">Consultas</a></li>
-							<li><a href="#">Compras</a></li>
-							<li><a href="#">Trabajo en terreno</a></li>
-							<li><a href="#">Nuestros clientes</a></li>
+							<li><a href="contacto.jsp">Consultas</a></li>
+							<li><a href="#">Perfiles de guerreros Z</a></li>
+							<li><a href="#">Â¡Salvemos la tierra!</a></li>
+							<li><a href="#">Nuestros aliados</a></li>
 							<li><a href="#">Formas de pago</a></li>
 						</ul>
 					</div>
 					<div class="footer-links">
-						<h4>Tienda</h4>
+						<h4>Biblioteca</h4>
 						<ul>
-							<li><a href="#">APPs</a></li>
-							<li><a href="#">Softwares</a></li>
-							<li><a href="#">Hardwares</a></li>
-							<li><a href="#">Smartphones</a></li>
-							<li><a href="#">Plataforma/Gamers</a></li>
+							<li><a href="#">Ki</a></li>
+							<li><a href="#">Poderes</a></li>
+							<li><a href="#">Maestros</a></li>
+							<li><a href="#">Razas</a></li>
+							<li><a href="#">Universos</a></li>
 						</ul>
 					</div>
 					<div class="footer-links">
@@ -72,7 +73,8 @@
 				</div>
 			</div>
 		</footer>
-  
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+		<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script src="Scripts/script.js"></script>
+   		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

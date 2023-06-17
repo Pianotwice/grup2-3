@@ -11,6 +11,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+	list-style:none;
 }
 body {
 	width: 100%;
@@ -344,4 +346,67 @@ button:focus {
 }
 .support a:hover {
   	transform: scale(1.1);
+}
+.footer {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px 0;
+	position: fixed; /* Changed from fixed */
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	width: 100%;	
+}
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;	
+}
+.footer-links {
+	width: 25%;
+	padding: 0 15px;	
+}
+.footer-links h4 {
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+	font-weight: 500;
+	border-bottom: 2px solid #00C3FF;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.footer-links ul li a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #BBBBBB;
+	display: block;
+	margin-bottom: 8px;
+	transition: all .3s ease;
+}
+.footer-links ul li a:hover {
+	color: #ff8000;
+	padding-left: 6px;
+}
+.social-links a {
+	display: inline-block;
+	min-height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	transition: all .5s ease;
+}
+.social-links a:hover {
+	background-color: #ff8000;
+}
+@media(max-width: 991px) { /* Aquí le decimos a nuestra página que si queremos bajar a 991 pixeles
+cumpla con ciertas exigencias */
+	.footer-row {
+		text-align: center;
+	}
+	.footer-links {
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
